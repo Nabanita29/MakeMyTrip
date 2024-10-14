@@ -1,0 +1,14 @@
+{
+    "name": "makemytrip-itinerary",
+    "version": "1.0.0",
+    "description": "A project to create an itinerary for a trip to Jaipur.",
+    "main": "src/app.js",
+    "scripts": {
+        "start": "node src/app.js"
+    },
+    "author": "Nabanita Chatterjee",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.21.1"
+    }
+}

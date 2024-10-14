@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "name": "Amer Fort",
+      "description": "A beautiful fort located on the outskirts of Jaipur, known for its artistic style.",
+      "timing": "9:00 AM - 5:00 PM",
+      "location": "Devisinghpura, Amer, Jaipur",
+      "category": "Historical",
+      "image": "https://example.com/amer-fort.jpg"
+    },
+    {
+      "id": 2,
+      "name": "City Palace",
+      "description": "An iconic palace, City Palace is known for its unique blend of Rajasthani and Mughal architecture.",
+      "timing": "9:30 AM - 5:00 PM",
+      "location": "Tulsi Marg, Gangori Bazaar, Jaipur",
+      "category": "Historical",
+      "image": "https://example.com/city-palace.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Jantar Mantar",
+      "description": "An astronomical observatory built in the 18th century, featuring the world's largest stone sundial.",
+      "timing": "9:00 AM - 4:30 PM",
+      "location": "Gangori Bazaar, Jaipur",
+      "category": "Cultural",
+      "image": "https://example.com/jantar-mantar.jpg"
+    }
+  ]
+  

@@ -1,0 +1,126 @@
+/* General Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Heading Style */
+h1 {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Adding some shadow for clarity */
+}
+
+/* Form Styles */
+form {
+    background: rgba(255, 255, 255, 0.9); /* Transparent white form */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Label Styles */
+label {
+    color: #FF4C4C; /* MakeMyTrip Red */
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+/* Input Fields */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Button Styling */
+button {
+    padding: 12px 20px;
+    background-color: #FF4C4C; /* MakeMyTrip Red */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #D13333; /* Darker Red on hover */
+}
+
+/* Calendar View (Hidden by default, to be customized later) */
+#calendarView {
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white box */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    display: none;
+}
+
+.calendar {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border: 2px solid red;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.calendar-header {
+    display: flex;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.day {
+    flex: 1;
+    padding: 10px;
+    border-bottom: 1px solid red;
+}
+
+.calendar-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.day-cell {
+    flex: 1 0 14.28%; /* 7 days in a week */
+    height: 100px; /* adjust as needed */
+    border: 1px solid lightgray;
+    box-sizing: border-box;
+    position: relative;
+    padding: 10px;
+    background-color: white;
+}
+
+.day-cell[draggable="true"] {
+    cursor: grab;
+}
+
+.day-cell.dragging {
+    opacity: 0.5;
+}
